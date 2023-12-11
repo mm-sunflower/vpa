@@ -8,6 +8,19 @@ html *
     font-family: Unicode !important;
 }
 
-.mm{
+.mmtitle{
     font-family:Unicode;
+    font-size: large;
+}
+
+.mmtext{
+    font-family:Unicode;
+    font-size: medium;
+}
+
+.mmnote{
+    font-family:Unicode;
+    font-size: small;
+    text-align: right;
+    padding-right: 10px;
 }
