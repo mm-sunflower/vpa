@@ -24,3 +24,8 @@ html *
     text-align: right;
     padding-right: 10px;
 }
+
+.rcorners {
+    border-radius: 25px;
+    border: 2px solid #9fb3ff;
+  }
