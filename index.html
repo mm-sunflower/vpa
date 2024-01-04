@@ -1,8 +1,29 @@
-<html>
-    <head>
-        <title>VPA</title>
-    </head>
-    <body>
-        <h1>Welcome to Virtual People Assembly 2024</h1>
-    </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Virtual People Assembly 2024</title>
+  <style>
+    body, html {
+      height: 100%;
+      margin: 0;
+    }
+    iframe {
+      display: block;
+      width: 100%;
+      border: none;
+    }
+    #topIframe {
+      height: 40px;
+    }
+    #bottomIframe {
+      height: calc(100% - 40px);
+    }
+  </style>
+</head>
+<body>
+  <iframe id="topIframe" src="updates.html"></iframe>
+  <iframe id="bottomIframe" src="https://play.workadventu.re/@/mm-spring/virtual-people's-assembly/vpa-yangon"></iframe>
+</body>
 </html>
