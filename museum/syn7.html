@@ -1,0 +1,298 @@
+<html>
+    <head>
+        <title>Synergy</title>
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="../bootstrap.min.css">
+        <style>
+          * {box-sizing:border-box}
+
+          /* Slideshow container */
+          .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+          }
+
+          /* Hide the images by default */
+          .mySlides0, .mySlides1, .mySlides2, .mySlides3, .mySlides4 {
+            display: none;
+          }
+
+          /* Next & previous buttons */
+          .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+          }
+
+          /* Position the "next button" to the right */
+          .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+          }
+
+          /* On hover, add a black background color with a little bit see-through */
+          .prev:hover, .next:hover {
+            background-color: rgba(0,0,0,0.8);
+          }
+
+          /* Caption text */
+          .text {
+            color: #f2f2f2;
+            font-size: 15px;
+            padding: 8px 12px;
+            position: absolute;
+            bottom: 8px;
+            width: 100%;
+            text-align: center;
+          }
+
+          /* Number text (1/3 etc) */
+          .numbertext {
+            color: #f2f2f2;
+            font-size: 12px;
+            padding: 8px 12px;
+            position: absolute;
+            top: 0;
+          }
+
+          /* The dots/bullets/indicators */
+          .dot0,.dot1,.dot2,.dot3,.dot4 {
+            cursor: pointer;
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+          }
+
+          .gactive, .dot:hover {
+            background-color: #717171;
+          }
+
+        </style>
+        <script>
+          function showTab(n){
+            if(n==0){
+              document.getElementById("animation").className = "tab-pane fade active show";
+              document.getElementById("debate").className = "tab-pane fade";
+              document.getElementById("humanity").className = "tab-pane fade";
+
+              document.getElementById("tab_animation").className = "nav-link active";
+              document.getElementById("tab_debate").className = "nav-link";
+              document.getElementById("tab_humanity").className = "nav-link";
+            }
+            else if(n == 1){
+              document.getElementById("debate").className = "tab-pane fade active show";
+              document.getElementById("animation").className = "tab-pane fade";
+              document.getElementById("humanity").className = "tab-pane fade";
+
+              document.getElementById("tab_animation").className = "nav-link";
+              document.getElementById("tab_humanity").className = "nav-link";
+              document.getElementById("tab_debate").className = "nav-link active";
+            }
+            else{
+              document.getElementById("debate").className = "tab-pane fade";
+              document.getElementById("animation").className = "tab-pane fade";
+              document.getElementById("humanity").className = "tab-pane fade active show";
+
+              document.getElementById("tab_animation").className = "nav-link";
+              document.getElementById("tab_humanity").className = "nav-link active";
+              document.getElementById("tab_debate").className = "nav-link";
+            }
+          }
+        </script>
+    </head>
+    <body>
+      <div class="card mb-3" style="margin: 20px">
+        <h3 class="card-header mmtitle">Synergy Social Harmony Organization</h3>
+        <div class="card-body">
+          <div style="width: 100%; text-align: center;">
+            <img class="rcorners" width="400" src="../images/museum/synergy_logo.png" />
+          </div>
+          <p></p>
+          <figure>
+            <blockquote class="blockquote">
+              <p class="mmtitle">About Synergy</p>
+            </blockquote>
+          </figure>
+          <p></p>
+        </div>       
+      </div>
+
+      <div class="card mb-3" style="margin: 20px">
+        <h3 class="card-header mmtitle">
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a id="tab_animation" class="nav-link active" data-bs-toggle="tab" href="javascript: showTab(0);" aria-selected="true" role="tab">White Rose Campaign</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a id="tab_debate" class="nav-link" data-bs-toggle="tab" href="javascript: showTab(1);" aria-selected="false" role="tab" tabindex="-1">Peace Bike Tour</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a id="tab_humanity" class="nav-link" data-bs-toggle="tab" href="javascript: showTab(2);" aria-selected="false" role="tab" tabindex="-1">Art for Humanity</a>
+            </li>
+          </ul>
+        </h3>
+
+        <div class="card-body">
+
+          <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade active show" id="animation" role="tabpanel">
+              <p class="mmtitle">လူလူခြင်း မေတ္တာထား ကူညီရိုင်းပင်းခြင်းဟာ လူ့အဖွဲ့အစည်းအတွက် တန်ဖိုးရှိတဲ့အရာ<br/>3 September 2019</p>
+              
+              <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FSYNERGYSHO%2Fvideos%2F744091809369321%2F&show_text=false&width=560" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+              <p>&nbsp;</p>
+              <p>&nbsp;</p>
+
+              <p>လူအုပ်စုဖြင့် အင်အားသုံး ပိတ်ပင်ခဲ့သောတောင်ဒဂုံမြို့နယ်ရှိ အစ္စလမ် ယာယီဝတ်ပြုဆောင်များသို့ အာရှအလင်းရောင်ဆရာတော် ကြွရောက်အားပေးကာ ငြိမ်းချမ်းရေးစကားများ ပြောဆိုကာ နှင်းဆီဖြူများဝေငှခဲ့ (၂၀၁၉)</p>
+              16 May 2019
+
+              <div class="slideshow-container">
+                <div class="mySlides4">
+                  <div class="numbertext">1 / 7</div>
+                  <center>
+                    <img height="300px" src="https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/60271341_2755452264495783_7145101022325637120_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=WuFW-mdfl_IAX8-apVS&_nc_ht=scontent-hkg4-1.xx&oh=00_AfBxoBAUTbcEH0dApJuenK7nr6CS6n5i8ZwoDNEKVv5ZSw&oe=66139141" />
+                  </center>
+                  <div class="text"></div>
+                </div>
+
+                <div class="mySlides4">
+                  <div class="numbertext">2 / 7</div>
+                  <center>
+                    <img height="300px" src="https://scontent-hkg1-2.xx.fbcdn.net/v/t1.6435-9/60360026_2755451177829225_6879508765956112384_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=DouyCISAjQgAX8L07wQ&_nc_ht=scontent-hkg1-2.xx&oh=00_AfDeOgmajCqPtIJgU0teCoF0C_-39j6yI23lxaHwQM0f_Q&oe=661377C7" />
+                  </center>
+                  <div class="text"></div>
+                </div>
+
+                <div class="mySlides4">
+                  <div class="numbertext">3 / 7</div>
+                  <center>
+                    <img height="300px" src="https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/60730540_2755451081162568_4069399792617259008_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=li2XgfB5W0gAX_0XxU2&_nc_ht=scontent-hkg4-1.xx&oh=00_AfAp7ljyg0_CyqI0yOrjt5aoFrAu_UVXH1OppWjXq9GnNw&oe=66139B18" />
+                  </center>
+                  <div class="text"></div>
+                </div>
+
+                <div class="mySlides4">
+                  <div class="numbertext">4 / 7</div>
+                  <center>
+                    <img height="300px" src="https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/60333993_2755451724495837_6104619253267169280_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=O8OwX7qkPf8AX-5uBde&_nc_ht=scontent-hkg4-1.xx&oh=00_AfCWubjNZXPE9LY_UkbjRMs5-Qs5jajNuQo7u20C-dJQag&oe=66137A45" />
+                  </center>
+                  <div class="text"></div>
+                </div>
+
+                <div class="mySlides4">
+                  <div class="numbertext">5 / 7</div>
+                  <center>
+                    <img height="300px" src="https://scontent-hkg1-2.xx.fbcdn.net/v/t1.6435-9/60682229_2755451164495893_9219952405368537088_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=zmMTefXh7e0AX8Yy1xK&_nc_ht=scontent-hkg1-2.xx&oh=00_AfBBbWctQqCIwqhEnlc-OPW2DFg9wZhWSocTpSn9L7nvTQ&oe=6613906C" />
+                  </center>
+                  <div class="text"></div>
+                </div>
+
+                <div class="mySlides4">
+                  <div class="numbertext">6 / 7</div>
+                  <center>
+                    <img height="300px" src="https://scontent-hkg1-1.xx.fbcdn.net/v/t1.6435-9/60790541_2755451884495821_6318129787017625600_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=wSn2Apn_JIsAX_u8WFW&_nc_ht=scontent-hkg1-1.xx&oh=00_AfDoaOVGax1MAQFnYqZ3tK0njVqURAcMzluw8Jcugvo5Hg&oe=661376A0" />
+                  </center>
+                  <div class="text"></div>
+                </div>
+
+                <div class="mySlides4">
+                  <div class="numbertext">7 / 7</div>
+                  <center>
+                    <img height="300px" src="https://scontent-hkg4-1.xx.fbcdn.net/v/t1.6435-9/60339385_2755452504495759_5192070734456815616_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=90MDqm-RS5YAX_K00uN&_nc_ht=scontent-hkg4-1.xx&oh=00_AfB-bUi0VDHsNlIyXsXWSSkZxbUFLOpkc4xLcUtY-Bi1Yg&oe=6613A360" />
+                  </center>
+                  <div class="text"></div>
+                </div>
+                
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1,4)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1,4)">&#10095;</a>
+              </div>
+                  
+              <br/>  
+              <div style="text-align:center">
+                <span class="dot4" onclick="currentSlide(1,4)"></span>
+                <span class="dot4" onclick="currentSlide(2,4)"></span>
+                <span class="dot4" onclick="currentSlide(3,4)"></span>
+                <span class="dot4" onclick="currentSlide(4,4)"></span>
+                <span class="dot4" onclick="currentSlide(5,4)"></span>
+                <span class="dot4" onclick="currentSlide(6,4)"></span>
+                <span class="dot4" onclick="currentSlide(7,4)"></span>
+              </div>
+
+
+              <p>&nbsp;</p>
+
+            </div>
+
+            <div class="tab-pane fade" id="debate" role="tabpanel">
+              <p class="mmtitle">မိုင် ၁၅၀၀ ငြိမ်းချမ်းရေး ဆိုင်ကယ်စီးခရီးစဉ်<br/>08 April 2019</p>
+              <iframe class="rcorners" width="400" height="225" src="https://www.youtube.com/embed/l80JxXhpjQ0?si=5JMlTZllobt9TMxO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <p>&nbsp;</p>
+
+              
+            </div>
+
+            <div class="tab-pane fade" id="humanity" role="tabpanel">
+              <p class="mmtitle">လူသားဆန်မှုအနုပညာ<br/>27 November 2018</p>
+              <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FSYNERGYSHO%2Fvideos%2F346838589486169%2F&show_text=false&width=560" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+              
+              <p>&nbsp;</p>
+              <p class="mmtitle">
+                Covid-19 မဖြစ်ပွားခင်အချိန်လေးမှာ ကျွန်တော်တို့ Synergy အဖွဲ့သားများဟာ  လူမှုကွန်ယက်ဒေါက်တာ ဝင်းကိုကိုသိန်း (သက္ကမိုးညို)၊ မဝင်းမင်းသန်း၊ စာရေးဆရာ ဗြိတိသျှကိုကိုမောင်တို့ကိုဖိတ်ခေါ်ပြီး  ရှမ်းပြည်နယ် တောင်ပိုင်းမှာနေထိုင်ကြတဲ့ ဒေသခံပြည်သူတွေ၊ လက်ရှိလှုပ်ရှားနေတဲ့ လူမှုအဖွဲ့အစည်း၊ အရပ်ဖက်အဖွဲ့အစည်း တွေ၊ တက်ကြွလှုပ်ရှားသူတွေ၊ နိုင်ငံရေးလှုပ်ရှားသူတွေနဲ့ တွေ့ဆုံပြီးတော့ ဘာတွေနားထောင်ခဲ့လဲ၊ ဘာတွေ ခံစားရသလဲ၊ ဘယ်လိုအတွေ့အကြုံတွေ ရရှိခဲ့သလဲ၊ ပြီးတော့ ဒေသခံပြည်သူတွေရဲ့ လက်ရှိကြုံတွေ့နေရတဲ့ အခက်အခဲ၊ စိန်ခေါ်မှု စတဲ့အရာတွေကို ဒီဗီဒီယိုလေးမှာ ကြည့်ရှုခံစားနိုင်ပါတယ်။
+                </p>
+                <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FSYNERGYSHO%2Fvideos%2F3463224070356542&show_text=false&width=560" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+              
+              
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <script>
+        let slideIndex = 1;
+        showSlides(slideIndex,4);
+
+        // Next/previous controls
+        function plusSlides(n,group) {
+          showSlides(slideIndex += n,group);
+        }
+
+        // Thumbnail image controls
+        function currentSlide(n,group) {
+          showSlides(slideIndex = n,group);
+        }
+
+        function showSlides(n,group) {
+          let i;
+          let slides = document.getElementsByClassName("mySlides"+group);
+          let dots = document.getElementsByClassName("dot"+group);
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" gactive", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " gactive";
+        }
+    </script>
+   
+    </body>
+</html>
