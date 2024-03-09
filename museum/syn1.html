@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <title>Synergy</title>
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="../bootstrap.min.css">
+        <script>
+          function showTab(n){
+            if(n==0){
+              document.getElementById("animation").className = "tab-pane fade active show";
+              document.getElementById("debate").className = "tab-pane fade";
+
+              document.getElementById("tab_animation").className = "nav-link active";
+              document.getElementById("tab_debate").className = "nav-link";
+            }
+            else{
+              document.getElementById("debate").className = "tab-pane fade active show";
+              document.getElementById("animation").className = "tab-pane fade";
+
+              document.getElementById("tab_animation").className = "nav-link";
+              document.getElementById("tab_debate").className = "nav-link active";
+            }
+          }
+        </script>
+    </head>
+    <body>
+      <div class="card mb-3" style="margin: 20px">
+        <h3 class="card-header mmtitle">Synergy Social Harmony Organization</h3>
+        <div class="card-body">
+          <div style="width: 100%; text-align: center;">
+            <img class="rcorners" width="400" src="../images/museum/synergy_logo.png" />
+          </div>
+          <p></p>
+          <figure>
+            <blockquote class="blockquote">
+              <p class="mmtitle">About Synergy</p>
+            </blockquote>
+          </figure>
+          <p></p>
+        </div>       
+      </div>
+
+      <div class="card mb-3" style="margin: 20px">
+        <h3 class="card-header mmtitle">
+          <ul class="nav nav-tabs" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a id="tab_animation" class="nav-link active" data-bs-toggle="tab" href="javascript: showTab(0);" aria-selected="true" role="tab">Animation Videos</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a id="tab_debate" class="nav-link" data-bs-toggle="tab" href="javascript: showTab(1);" aria-selected="false" role="tab" tabindex="-1">လွတ်လပ်ရေးဒီဘိတ်</a>
+            </li>
+          </ul>
+        </h3>
+
+        <div class="card-body">
+
+          <div id="myTabContent" class="tab-content">
+            <div class="tab-pane fade active show" id="animation" role="tabpanel">
+              <p class="mmtitle">၁ - ပြည်သူလူထုက အမျိုးသားညီညွတ်ရေးအစိုးရကို ပေးအပ်လိုက်တဲ့ လုပ်ပိုင်ခွင့်</p>
+              <iframe class="rcorners" width="400" height="225" src="https://www.youtube.com/embed/qXjYiuLPAg4?si=Ug1QtBwL7qPLKWX6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <p>&nbsp;</p>
+
+              <p class="mmtitle">၂ - ပြိုင်တူတွန်းလျှင် ရွေ့နိုင်ပါသည်</p>
+              <iframe class="rcorners" width="400" height="225" src="https://www.youtube.com/embed/y9nVugOqiGY?si=GgsP5DIf7VmPL4nd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <p>&nbsp;</p>
+
+              <p class="mmtitle">၃ - ရောင်စုံကမ္ဘာကြီးကို မျက်မှန်စိမ်းကြီးပဲတပ်ပြီး ကြည့်နေလို့ အဆင်ပြေပါ့မလား?</p>
+              <iframe class="rcorners" width="400" height="225" src="https://www.youtube.com/embed/xunh2j8KBFs?si=BidAinGAIz3ZTOG1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <p></p>
+              <p></p>
+            
+            </div>
+
+            <div class="tab-pane fade" id="debate" role="tabpanel">
+              <p class="mmtitle">အိမ်ပြန်ခရီး နီးပြီလား</p>
+              <iframe class="rcorners" width="400" height="225" src="https://www.youtube.com/embed/KEeLWQ7ImxI?si=JxuBqT6hnNyjNaUG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              <p></p>
+              <p></p>
+            
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+   
+    </body>
+</html>
